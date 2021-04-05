@@ -1,0 +1,113 @@
+/* CSS Main */
+html {
+  font-family: "Raleway", sans-serif;
+}
+body {
+  margin: 20px;
+  padding: 0;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* recherche */
+
+.recherche input {
+  color: #000000;
+}
+
+.nav a {
+  color: #0065fc;
+}
+.hidden {
+  color: #0065fc;
+}
+
+.map {
+  background-color: #f2f2f2;
+}
+
+.search {
+  background-color: #0065fc;
+}
+
+.recherche input:hover {
+  background-color: red;
+}
+
+/* filtres */
+
+.filtres a {
+  color: #0065fc;
+}
+
+.filtres a:hover {
+  background-color: yellow;
+}
+
+.economy {
+  background-color: #deebff;
+}
+
+.child {
+  background-color: #deebff;
+}
+
+.romantique {
+  background-color: #deebff;
+}
+
+.dog {
+  background-color: #deebff;
+}
+
+/* populaires */
+
+.populaires {
+  background-color: #f2f2f2;
+}
+
+.col-1 {
+  background-color: #fff;
+}
+.col-1 p {
+  font-size: 14px;
+}
+
+/* hebergements */
+
+.hebergements {
+  background-color: #deebff;
+}
+
+.col-2 {
+  background-color: #fff;
+}
+
+/* activités*/
+
+.activites {
+  background-color: #f2f2f2;
+}
+
+.col-3 {
+  background-color: #fff;
+}
+
+/* footer */
+
+.footer {
+  background-color: #f2f2f2;
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 960px) {
+}

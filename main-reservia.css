@@ -1,0 +1,65 @@
+/* CSS Main */
+
+.recherche input {
+  text-decoration: none;
+}
+
+/* filtres */
+
+.filtres a {
+  text-decoration: none;
+}
+
+.filtres ul {
+  justify-content: space-between;
+  list-style: none;
+}
+
+/* populaires */
+
+.populaires {
+  text-align: left;
+}
+
+.col-1 p {
+  text-align: left;
+}
+
+/* hebergements */
+
+.hebergements {
+  text-align: left;
+}
+
+.col-2 p {
+  text-align: justify;
+}
+
+/* activités*/
+
+.activites {
+  text-align: left;
+}
+
+.col-3 {
+  border-radius: 35px;
+  box-shadow: 3px 3px 5px #dbdbdb;
+}
+
+.col-3 img {
+  object-fit: cover;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+.col-3 p {
+  text-align: justify;
+}
+
+/* footer */
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 960px) {
+}
