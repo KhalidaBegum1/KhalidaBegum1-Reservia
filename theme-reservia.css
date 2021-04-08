@@ -1,6 +1,10 @@
 /* CSS Main */
 html {
   font-family: "Raleway", sans-serif;
+<<<<<<< HEAD
+=======
+  font-weight: 300;
+>>>>>>> 51aeda9... changement
 }
 body {
   margin: 20px;
@@ -83,7 +87,11 @@ h2 {
 /* hebergements */
 
 .hebergements {
+<<<<<<< HEAD
   background-color: #deebff;
+=======
+  background-color: #f2f2f2;
+>>>>>>> 51aeda9... changement
 }
 
 .col-2 {
@@ -111,3 +119,9 @@ h2 {
 
 @media screen and (min-width: 960px) {
 }
+<<<<<<< HEAD
+=======
+.nav a {
+  color: #0065fc;
+}
+>>>>>>> 51aeda9... changement

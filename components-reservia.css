@@ -27,6 +27,23 @@
   border: 2px solid #f2f2f2;
   border-radius: 50px;
 }
+<<<<<<< HEAD
+=======
+.economy {
+  border-radius: 30px;
+}
+.child {
+  border-radius: 30px;
+}
+
+.romantique {
+  border-radius: 30px;
+}
+
+.dog {
+  border-radius: 30px;
+}
+>>>>>>> 51aeda9... changement
 
 /* populaires */
 
