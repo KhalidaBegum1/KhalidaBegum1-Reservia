@@ -3,6 +3,9 @@
 .recherche input {
   text-decoration: none;
 }
+.fa-map-marker-alt {
+  text-align: center;
+}
 
 /* filtres */
 
@@ -11,8 +14,10 @@
 }
 
 .filtres ul {
-  justify-content: space-between;
   list-style: none;
+}
+.info {
+  text-align: left;
 }
 
 /* populaires */
@@ -22,18 +27,10 @@
 }
 
 .col-1 p {
-  text-align: left;
+  text-align: center;
 }
 
 /* hebergements */
-
-.hebergements {
-  text-align: left;
-}
-
-.col-2 p {
-  text-align: justify;
-}
 
 /* activités*/
 
@@ -41,7 +38,6 @@
   text-align: left;
 }
 
-<<<<<<< HEAD
 .col-3 {
   border-radius: 35px;
   box-shadow: 3px 3px 5px #dbdbdb;
@@ -53,9 +49,7 @@
   border-top-right-radius: 35px;
 }
 
-=======
->>>>>>> 51aeda9... changement
-.col-3 p {
+.col-3 h3 {
   text-align: justify;
 }
 
@@ -66,9 +60,3 @@
 
 @media screen and (min-width: 960px) {
 }
-<<<<<<< HEAD
-=======
-.nav a {
-  text-decoration: none;
-}
->>>>>>> 51aeda9... changement

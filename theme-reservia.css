@@ -1,16 +1,18 @@
 /* CSS Main */
 html {
   font-family: "Raleway", sans-serif;
-<<<<<<< HEAD
-=======
-  font-weight: 300;
->>>>>>> 51aeda9... changement
+  font-size: 16px;
 }
 body {
-  margin: 20px;
-  padding: 0;
-  line-height: 1.5;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.2;
 }
+h1 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
 h2 {
   font-size: 20px;
   font-weight: bold;
@@ -33,14 +35,19 @@ h2 {
   color: #0065fc;
 }
 
-.map {
+.fa-map-marker-alt {
+  font-size: 23px;
   background-color: #f2f2f2;
 }
 
-.search {
+.fa-search {
+  font-size: 23px;
+  color: #fff;
   background-color: #0065fc;
 }
-
+.recherche input {
+  font-size: 18px;
+}
 .recherche input:hover {
   background-color: red;
 }
@@ -55,20 +62,37 @@ h2 {
   background-color: yellow;
 }
 
-.economy {
+.filtres li {
+  font-weight: bold;
+}
+
+.fa-money-bill-wave {
+  font-size: 23px;
+  color: #0065fc;
   background-color: #deebff;
 }
 
-.child {
+.fa-child {
+  font-size: 23px;
+  color: #0065fc;
   background-color: #deebff;
 }
 
-.romantique {
+.fa-heart {
+  font-size: 23px;
+  color: #0065fc;
   background-color: #deebff;
 }
 
-.dog {
+.fa-dog {
+  font-size: 23px;
+  color: #0065fc;
   background-color: #deebff;
+}
+
+.fa-info {
+  font-size: 16px;
+  color: #0065fc;
 }
 
 /* populaires */
@@ -80,33 +104,10 @@ h2 {
 .col-1 {
   background-color: #fff;
 }
-.col-1 p {
-  font-size: 14px;
-}
 
 /* hebergements */
 
-.hebergements {
-<<<<<<< HEAD
-  background-color: #deebff;
-=======
-  background-color: #f2f2f2;
->>>>>>> 51aeda9... changement
-}
-
-.col-2 {
-  background-color: #fff;
-}
-
 /* activités*/
-
-.activites {
-  background-color: #f2f2f2;
-}
-
-.col-3 {
-  background-color: #fff;
-}
 
 /* footer */
 
@@ -115,13 +116,13 @@ h2 {
 }
 
 @media screen and (min-width: 600px) {
+  body {
+    background-color: yellow;
+  }
 }
 
 @media screen and (min-width: 960px) {
+  body {
+    background-color: green;
+  }
 }
-<<<<<<< HEAD
-=======
-.nav a {
-  color: #0065fc;
-}
->>>>>>> 51aeda9... changement

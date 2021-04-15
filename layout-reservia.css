@@ -1,12 +1,24 @@
 /* CSS Layout */
 
 .header {
+  margin: 15px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
 }
+h1 {
+  margin: 15px;
+}
+h2 {
+  margin: 15px;
+}
+
+h3 {
+  margin: 15px;
+}
+
 .nav {
-  margin: 10px;
+  margin: 15px;
 }
 .nav a {
   text-decoration: none;
@@ -19,100 +31,128 @@
 .hide {
   display: none;
 }
-.map {
+
+.fa-map-marker-alt {
   position: absolute;
-  top: 74%;
-  left: 10%;
+  top: 54.7%;
+  left: 13%;
   transform: translate(-50%, -50%);
 }
-.map {
-  padding: 15px;
-  width: 55px;
-  height: 55px;
+.fa-map-marker-alt {
+  padding: 18px 20px;
+  width: 60px;
+  height: 60px;
 }
 
-.search {
+.fa-search {
   position: absolute;
-  top: 74%;
-  right: 29%;
+  top: 54.7%;
+  left: 365px;
   transform: translate(-50%, -50%);
 }
-.search {
-  padding: 15px;
-  width: 55px;
-  height: 55px;
+.fa-search {
+  padding: 16px 18px;
+  width: 60px;
+  height: 60px;
 }
 
 .recherche input {
+  width: 100%;
+  margin: 20px;
   padding: 19px;
-  padding-left: 50px;
+  padding-left: 100px;
 }
 
-.info {
+.fa-info {
   padding: 1px;
-  margin-right: 15px;
+  margin: 15px;
 }
-.chart {
-  margin-left: 110px;
+.fa-chart-line {
+  margin-left: 150px;
 }
 
 /* filtres */
 
+.filtres {
+  margin: 15px;
+}
+
 .filtres li {
-  padding: 15px 15px 15px 70px;
+  padding: 15px 10px 15px 53px;
   margin: 5px;
+  margin-bottom: 10px;
 }
 
-.economy {
+.fa-money-bill-wave {
   position: absolute;
-  top: 89%;
-  left: 25%;
+  top: 75%;
+  left: 20.7%;
   transform: translate(-50%, -50%);
 }
-.economy {
-  border-radius: 30px;
-  padding: 15px;
-  width: 57px;
-  height: 58px;
+.fa-money-bill-wave {
+  padding: 15px 10px;
+  width: 50px;
+  height: 53px;
 }
-.child {
+.fa-child {
   position: absolute;
-  top: 99.9%;
-  left: 25%;
+  top: 75%;
+  left: 67%;
   transform: translate(-50%, -50%);
 }
-.child {
-  border-radius: 30px;
-  padding: 15px;
-  width: 57px;
-  height: 58px;
+.fa-child {
+  padding: 15px 17px;
+  width: 50px;
+  height: 53px;
 }
 
-.romantique {
+.fa-heart {
+  position: absolute;
+  top: 85.5%;
+  left: 21.7%;
+  transform: translate(-50%, -50%);
+}
+.fa-heart {
+  padding: 15px 13px;
+  width: 50px;
+  height: 53px;
+}
+
+.fa-dog {
+  position: absolute;
+  top: 95.5%;
+  left: 21.7%;
+  transform: translate(-50%, -50%);
+}
+
+.fa-dog {
+  padding: 14px 13px;
+  width: 50px;
+  height: 53px;
+}
+
+.fa-info {
   position: absolute;
   top: 110%;
-  left: 25%;
+  left: 3%;
   transform: translate(-50%, -50%);
 }
-.romantique {
-  border-radius: 30px;
-  padding: 15px;
-  width: 57px;
-  height: 58px;
+.fa-info {
+  padding: 4px 10px;
 }
 
-.dog {
+.info {
+  margin: 20px;
+}
+.info p {
+  margin-left: 30px;
+}
+
+.fa-chart-line {
   position: absolute;
-  top: 120%;
-  left: 25%;
+  top: 125%;
+  left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.dog {
-  border-radius: 30px;
-  padding: 15px;
-  width: 57px;
-  height: 58px;
 }
 
 /* populaires */
@@ -137,11 +177,15 @@
   height: 150px;
 }
 
-.col-1 p {
+.col-1 h3 {
   float: right;
   padding: 5px 10px 10px 10px;
 }
-
+.col-1 p {
+  float: right;
+  padding: 0px 40px 10px 20px;
+  margin-top: auto;
+}
 /* hebergements */
 
 .hebergements {
@@ -152,19 +196,21 @@
 
 .col-2 {
   width: 100%;
-  height: 210px;
+  height: 250px;
   margin-bottom: 20px;
   padding: 5px;
 }
 
 .col-2 img {
-  width: 100%;
   height: 150px;
+  width: 100%;
   object-fit: cover;
 }
-
+.col-2 h3 {
+  padding-left: 10px;
+}
 .col-2 p {
-  padding: 0px 0px 30px 30px;
+  padding-left: 22px;
 }
 
 /* activités*/
@@ -187,8 +233,8 @@
   object-fit: cover;
 }
 
-.col-3 p {
-  padding: 0px 0px 30px 30px;
+.col-3 h3 {
+  padding: 0px 0px 30px 10px;
 }
 
 /* footer */
@@ -196,6 +242,9 @@
 .footer {
   margin-top: 15px;
   padding-top: 15px;
+  padding-left: 15px;
+}
+.footer p {
   padding-left: 15px;
 }
 

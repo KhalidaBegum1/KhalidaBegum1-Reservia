@@ -1,20 +1,20 @@
 /* CSS Components */
 
-.map {
+.fa-map-marker-alt {
   border-radius: 20px;
   border-bottom-right-radius: 0px;
   border-top-right-radius: 0px;
 }
-.search {
+.fa-search {
   border-radius: 20px;
 }
 .recherche input {
   border: 2px solid #f2f2f2;
   border-radius: 20px;
 }
-.info {
+.fa-info {
   border: 2px solid #f2f2f2;
-  border-radius: 25px;
+  border-radius: 20px;
 }
 
 /* filtres */
@@ -22,28 +22,27 @@
 .filtres ul {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
+
 .filtres li {
   border: 2px solid #f2f2f2;
   border-radius: 50px;
 }
-<<<<<<< HEAD
-=======
-.economy {
+.fa-money-bill-wave {
   border-radius: 30px;
 }
-.child {
-  border-radius: 30px;
-}
-
-.romantique {
+.fa-child {
   border-radius: 30px;
 }
 
-.dog {
+.fa-heart {
   border-radius: 30px;
 }
->>>>>>> 51aeda9... changement
+
+.fa-dog {
+  border-radius: 30px;
+}
 
 /* populaires */
 
