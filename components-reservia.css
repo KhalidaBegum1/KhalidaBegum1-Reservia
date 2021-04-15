@@ -19,12 +19,6 @@
 
 /* filtres */
 
-.filtres ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .filtres li {
   border: 2px solid #f2f2f2;
   border-radius: 50px;

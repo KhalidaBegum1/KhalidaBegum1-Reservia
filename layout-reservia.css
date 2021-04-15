@@ -1,7 +1,7 @@
 /* CSS Layout */
 
 .header {
-  margin: 15px;
+  margin: 8px 20px 50px 15px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -32,9 +32,31 @@ h3 {
   display: none;
 }
 
+.hidden {
+  position: absolute;
+  top: 52.7%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+.tete1 {
+  position: absolute;
+  top: 108%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  padding-top: 50px;
+}
+
+.tete2 {
+  position: absolute;
+  top: 108%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  padding-top: 50px;
+}
+
 .fa-map-marker-alt {
   position: absolute;
-  top: 54.7%;
+  top: 48.7%;
   left: 13%;
   transform: translate(-50%, -50%);
 }
@@ -46,8 +68,8 @@ h3 {
 
 .fa-search {
   position: absolute;
-  top: 54.7%;
-  left: 365px;
+  top: 48.7%;
+  left: 330px;
   transform: translate(-50%, -50%);
 }
 .fa-search {
@@ -57,7 +79,7 @@ h3 {
 }
 
 .recherche input {
-  width: 100%;
+  width: 85%;
   margin: 20px;
   padding: 19px;
   padding-left: 100px;
@@ -77,6 +99,16 @@ h3 {
   margin: 15px;
 }
 
+.filtres ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.filtres ul {
+  padding-left: 10px;
+}
+
 .filtres li {
   padding: 15px 10px 15px 53px;
   margin: 5px;
@@ -85,10 +117,11 @@ h3 {
 
 .fa-money-bill-wave {
   position: absolute;
-  top: 75%;
-  left: 20.7%;
+  top: 69%;
+  left: 14.7%;
   transform: translate(-50%, -50%);
 }
+
 .fa-money-bill-wave {
   padding: 15px 10px;
   width: 50px;
@@ -96,7 +129,7 @@ h3 {
 }
 .fa-child {
   position: absolute;
-  top: 75%;
+  top: 69%;
   left: 67%;
   transform: translate(-50%, -50%);
 }
@@ -108,8 +141,8 @@ h3 {
 
 .fa-heart {
   position: absolute;
-  top: 85.5%;
-  left: 21.7%;
+  top: 79.5%;
+  left: 14.7%;
   transform: translate(-50%, -50%);
 }
 .fa-heart {
@@ -120,8 +153,8 @@ h3 {
 
 .fa-dog {
   position: absolute;
-  top: 95.5%;
-  left: 21.7%;
+  top: 89.5%;
+  left: 14.7%;
   transform: translate(-50%, -50%);
 }
 
@@ -133,7 +166,7 @@ h3 {
 
 .fa-info {
   position: absolute;
-  top: 110%;
+  top: 103%;
   left: 3%;
   transform: translate(-50%, -50%);
 }
@@ -150,7 +183,7 @@ h3 {
 
 .fa-chart-line {
   position: absolute;
-  top: 125%;
+  top: 119%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -160,7 +193,7 @@ h3 {
 .populaires {
   width: 100%;
   margin-top: 35px;
-  padding: 5px;
+  padding: 10px;
 }
 .col-1 {
   width: 100%;
@@ -168,6 +201,10 @@ h3 {
   padding: 10px;
   padding-bottom: 2px;
   margin-bottom: 15px;
+}
+.col-1:hover {
+  color: #0065fc;
+  transform: scale(1, 1.2);
 }
 
 .col-1 img {
@@ -179,26 +216,52 @@ h3 {
 
 .col-1 h3 {
   float: right;
-  padding: 5px 10px 10px 10px;
+  padding: 5px 0px 10px 10px;
 }
 .col-1 p {
   float: right;
-  padding: 0px 40px 10px 20px;
+  padding: 0px 25px 10px 20px;
   margin-top: auto;
 }
+
+.notesoleil {
+  position: absolute;
+  top: 145%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.noteleau {
+  position: absolute;
+  top: 173%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.notebleublanc {
+  position: absolute;
+  top: 1337px;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
 /* hebergements */
 
 .hebergements {
   width: 100%;
   margin-top: 35px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .col-2 {
   width: 100%;
-  height: 250px;
+  height: 270px;
   margin-bottom: 20px;
   padding: 5px;
+}
+.col-2:hover {
+  color: #0065fc;
+  transform: scale(1, 1.2);
 }
 
 .col-2 img {
@@ -206,11 +269,51 @@ h3 {
   width: 100%;
   object-fit: cover;
 }
-.col-2 h3 {
-  padding-left: 10px;
-}
+
 .col-2 p {
-  padding-left: 22px;
+  padding-left: 15px;
+}
+
+.notecannebiere {
+  position: absolute;
+  top: 1760px;
+  left: 22%;
+  transform: translate(-50%, -50%);
+}
+
+.noteport {
+  position: absolute;
+  top: 2050px;
+  left: 22%;
+  transform: translate(-50%, -50%);
+}
+
+.notemouettes {
+  position: absolute;
+  top: 2340px;
+  left: 22%;
+  transform: translate(-50%, -50%);
+}
+
+.notemer {
+  position: absolute;
+  top: 2630px;
+  left: 22%;
+  transform: translate(-50%, -50%);
+}
+
+.notepanier {
+  position: absolute;
+  top: 2920px;
+  left: 22%;
+  transform: translate(-50%, -50%);
+}
+
+.noteamina {
+  position: absolute;
+  top: 3211px;
+  left: 22%;
+  transform: translate(-50%, -50%);
 }
 
 /* activités*/
@@ -218,13 +321,17 @@ h3 {
 .activites {
   width: 100%;
   margin-top: 35px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .col-3 {
   width: 100%;
   height: 200px;
   margin-bottom: 20px;
+}
+.col-3:hover {
+  color: #0065fc;
+  transform: scale(1, 1.2);
 }
 
 .col-3 img {
@@ -243,6 +350,7 @@ h3 {
   margin-top: 15px;
   padding-top: 15px;
   padding-left: 15px;
+  margin-bottom: 25px;
 }
 .footer p {
   padding-left: 15px;
@@ -252,9 +360,35 @@ h3 {
 }
 
 @media screen and (min-width: 960px) {
+  .icon {
+    position: absolute;
+    top: 170%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+  }
+  .tete1 {
+    position: absolute;
+    top: 110%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+  }
+
+  .tete2 {
+    position: absolute;
+    top: 110%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+  .hide {
+    position: absolute;
+    top: 190%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+  }
+
   .nav {
     display: flex;
-    align-items: flex-end;
+    flex-direction: row;
     justify-content: flex-end;
   }
   .nav a {
@@ -272,16 +406,101 @@ h3 {
   .hide {
     display: revert;
   }
+
+  /* recherche */
+
+  .recherche input {
+    width: 30%;
+    margin: 20px;
+    padding: 17.5px;
+    padding-left: 100px;
+  }
+
+  .fa-map-marker-alt {
+    position: absolute;
+    top: 33.5%;
+    left: 3.5%;
+    transform: translate(-50%, -50%);
+  }
+  .fa-map-marker-alt {
+    padding: 18px 20px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .fa-search {
+    position: absolute;
+    top: 33.5%;
+    left: 422px;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Filtres*/
+
+  .filtres ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .filtres li {
+    padding: 15px 15px 15px 70px;
+  }
+  .fa-money-bill-wave {
+    position: absolute;
+    top: 50.5%;
+    left: 3.9%;
+    transform: translate(-50%, -50%);
+  }
+  .fa-child {
+    position: absolute;
+    top: 50.5%;
+    left: 31.5%;
+    transform: translate(-50%, -50%);
+  }
+
+  .fa-heart {
+    position: absolute;
+    top: 50.5%;
+    left: 56.5%;
+    transform: translate(-50%, -50%);
+  }
+  .fa-dog {
+    position: absolute;
+    top: 50.5%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+  }
+
+  .fa-info {
+    position: absolute;
+    top: 61%;
+    left: 1%;
+    transform: translate(-50%, -50%);
+  }
+  .fa-chart-line {
+    position: absolute;
+    top: 78%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* populaires*/
+
   .populaires {
     width: 27%;
     float: right;
   }
+
+  /* hebergements*/
+
   .hebergements {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 70%;
-    max-height: 630px;
+
+    margin-left: 15px;
   }
   .hebergements a {
     margin-top: 70px;
@@ -290,14 +509,14 @@ h3 {
   .carteH {
     padding: 15px;
     position: absolute;
-    top: 65%;
+    top: 72%;
     left: 13%;
     transform: translate(-50%, -50%);
   }
 
   .col-2 {
-    width: 230px;
-    height: 190px;
+    width: 290px;
+    height: 200px;
     margin-top: 50px;
   }
 

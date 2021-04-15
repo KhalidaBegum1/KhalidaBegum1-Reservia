@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.hidden {
+  text-decoration: none;
+}
+
 /* filtres */
 
 .filtres a {
@@ -26,11 +30,11 @@
   text-align: left;
 }
 
-.col-1 p {
-  text-align: center;
-}
-
 /* hebergements */
+
+.afficher {
+  text-decoration: none;
+}
 
 /* activités*/
 

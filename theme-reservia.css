@@ -29,8 +29,13 @@ h2 {
 }
 
 .nav a {
+  color: #000;
+}
+
+.nav a:hover {
   color: #0065fc;
 }
+
 .hidden {
   color: #0065fc;
 }
@@ -55,11 +60,11 @@ h2 {
 /* filtres */
 
 .filtres a {
-  color: #0065fc;
+  color: #000;
 }
 
 .filtres a:hover {
-  background-color: yellow;
+  color: #0065fc;
 }
 
 .filtres li {
@@ -105,7 +110,88 @@ h2 {
   background-color: #fff;
 }
 
+.notesoleil {
+  color: lightgrey;
+  display: inline-block;
+}
+.notesoleil > :nth-child(-n + 5) {
+  color: #0065fc;
+}
+
+.noteleau {
+  color: lightgrey;
+  display: inline-block;
+}
+.noteleau :nth-child(-n + 4) {
+  color: #0065fc;
+}
+
+.notebleublanc {
+  color: lightgrey;
+  display: inline-block;
+}
+.notebleublanc :nth-child(-n + 4) {
+  color: #0065fc;
+}
+
 /* hebergements */
+
+.afficher {
+  color: #000;
+}
+
+.afficher:hover {
+  color: #0065fc;
+}
+
+.notecannebiere {
+  color: lightgrey;
+  display: inline-block;
+}
+.notecannebiere :nth-child(-n + 4) {
+  color: #0065fc;
+}
+
+.noteport {
+  color: lightgrey;
+  display: inline-block;
+}
+
+.noteport :nth-child(-n + 5) {
+  color: #0065fc;
+}
+
+.notemouettes {
+  color: lightgrey;
+  display: inline-block;
+}
+.notemouettes :nth-child(-n + 4) {
+  color: #0065fc;
+}
+
+.notemer {
+  color: lightgrey;
+  display: inline-block;
+}
+.notemer :nth-child(-n + 3) {
+  color: #0065fc;
+}
+
+.notepanier {
+  color: lightgrey;
+  display: inline-block;
+}
+.notepanier :nth-child(-n + 4) {
+  color: #0065fc;
+}
+
+.noteamina {
+  color: lightgrey;
+  display: inline-block;
+}
+.noteamina :nth-child(-n + 5) {
+  color: #0065fc;
+}
 
 /* activités*/
 
@@ -116,13 +202,10 @@ h2 {
 }
 
 @media screen and (min-width: 600px) {
-  body {
-    background-color: yellow;
-  }
 }
 
 @media screen and (min-width: 960px) {
-  body {
-    background-color: green;
+  .hebergements {
+    background-color: #f2f2f2;
   }
 }
