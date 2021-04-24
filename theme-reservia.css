@@ -40,23 +40,6 @@ h2 {
   color: #0065fc;
 }
 
-.fa-map-marker-alt {
-  font-size: 23px;
-  background-color: #f2f2f2;
-}
-
-.fa-search {
-  font-size: 23px;
-  color: #fff;
-  background-color: #0065fc;
-}
-.recherche input {
-  font-size: 18px;
-}
-.recherche input:hover {
-  background-color: red;
-}
-
 /* filtres */
 
 .filtres a {
@@ -71,34 +54,7 @@ h2 {
   font-weight: bold;
 }
 
-.fa-money-bill-wave {
-  font-size: 23px;
-  color: #0065fc;
-  background-color: #deebff;
-}
 
-.fa-child {
-  font-size: 23px;
-  color: #0065fc;
-  background-color: #deebff;
-}
-
-.fa-heart {
-  font-size: 23px;
-  color: #0065fc;
-  background-color: #deebff;
-}
-
-.fa-dog {
-  font-size: 23px;
-  color: #0065fc;
-  background-color: #deebff;
-}
-
-.fa-info {
-  font-size: 16px;
-  color: #0065fc;
-}
 
 /* populaires */
 
