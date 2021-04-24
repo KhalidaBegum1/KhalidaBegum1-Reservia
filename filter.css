@@ -1,0 +1,27 @@
+.filter {
+  display: inline-flex;
+  height: 45px;
+  background-color: #f2f2f2;
+  border-radius: 22.5px;
+  margin: 2px;
+}
+.filter-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: #deebff;
+  height: 45px;
+  width: 45px;
+}
+.filter-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.filter-container {
+  margin: 0;
+  padding: 0;
+}
