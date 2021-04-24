@@ -1,0 +1,23 @@
+.score {
+  color: lightgray;
+}
+
+.score-1 :first-child {
+  color: #0065fc;
+}
+
+.score-2 :nth-child(-n + 2) {
+  color: #0065fc;
+}
+
+.score-3 :nth-child(-n + 3) {
+  color: #0065fc;
+}
+
+.score-4 :nth-child(-n + 4) {
+  color: #0065fc;
+}
+
+.score-5 {
+  color: #0065fc;
+}
