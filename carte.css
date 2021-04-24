@@ -1,0 +1,53 @@
+/* carte.css */
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 30px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgb(158, 156, 156);
+}
+.card-bordered {
+  border: 5px solid white;
+}
+
+.card-image-container {
+  width: 50%;
+}
+
+.card-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px 0 0 30px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card-text p {
+  flex: 1;
+}
+
+.card-text h3 {
+  margin-bottom: 0;
+}
+
+.card-vertical {
+  flex-direction: column;
+}
+.card-vertical .card-image-container {
+  width: 100%;
+  height:70%;
+}
+
+.card-vertical .card-image-container img {
+  border-radius: 30px 30px 0 0;
+}
+.card-vertical .card-text{
+  height:30%;
+}
