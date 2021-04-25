@@ -28,7 +28,7 @@
   min-width: 60px;
   border-radius: 5px;
   border: none;
-  background-color:var(--primary-color);
+  background-color: var(--primary-color);
   color: white;
   transform: translateX(-5px);
 }

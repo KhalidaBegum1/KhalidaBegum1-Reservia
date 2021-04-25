@@ -1,12 +1,5 @@
 /* CSS Main */
 
-.recherche input {
-  text-decoration: none;
-}
-.fa-map-marker-alt {
-  text-align: center;
-}
-
 .hidden {
   text-decoration: none;
 }
@@ -17,16 +10,11 @@
   text-decoration: none;
 }
 
-
 .info {
   text-align: left;
 }
 
 /* populaires */
-
-.populaires {
-  text-align: left;
-}
 
 /* hebergements */
 

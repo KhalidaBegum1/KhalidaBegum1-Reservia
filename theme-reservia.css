@@ -50,38 +50,10 @@ h2 {
   color: #0065fc;
 }
 
-
-
-
 /* populaires */
 
 .populaires {
   background-color: #f2f2f2;
-}
-
-.col-1 {
-  background-color: #fff;
-}
-
-.notesoleil {
-  color: lightgrey;
-  display: inline-block;
-}
-.notesoleil > :nth-child(-n + 5) {
-  color: #0065fc;
-}
-
-.noteleau {
-  color: lightgrey;
-  display: inline-block;
-}
-
-.notebleublanc {
-  color: lightgrey;
-  display: inline-block;
-}
-.notebleublanc :nth-child(-n + 4) {
-  color: #0065fc;
 }
 
 /* hebergements */
@@ -94,54 +66,11 @@ h2 {
   color: #0065fc;
 }
 
-.notecannebiere {
-  color: lightgrey;
-  display: inline-block;
-}
-.notecannebiere :nth-child(-n + 4) {
-  color: #0065fc;
-}
+.
 
-.noteport {
-  color: lightgrey;
-  display: inline-block;
-}
 
-.noteport :nth-child(-n + 5) {
-  color: #0065fc;
-}
 
-.notemouettes {
-  color: lightgrey;
-  display: inline-block;
-}
-.notemouettes :nth-child(-n + 4) {
-  color: #0065fc;
-}
 
-.notemer {
-  color: lightgrey;
-  display: inline-block;
-}
-.notemer :nth-child(-n + 3) {
-  color: #0065fc;
-}
-
-.notepanier {
-  color: lightgrey;
-  display: inline-block;
-}
-.notepanier :nth-child(-n + 4) {
-  color: #0065fc;
-}
-
-.noteamina {
-  color: lightgrey;
-  display: inline-block;
-}
-.noteamina :nth-child(-n + 5) {
-  color: #0065fc;
-}
 
 /* activités*/
 

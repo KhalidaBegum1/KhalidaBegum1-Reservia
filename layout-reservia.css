@@ -13,8 +13,6 @@ h2 {
   margin: 15px;
 }
 
-
-
 .nav {
   margin: 15px;
 }
@@ -52,178 +50,22 @@ h2 {
   padding-top: 50px;
 }
 
-.fa-info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100%;
-  height: 40px;
-  width: 40px;
-}
-
-.fa-chart-line {
-  margin-left: 150px;
-}
-
 /* filtres */
-
-.filtres {
-  margin: 15px;
-}
-
-.fa-chart-line {
-  position: absolute;
-  top: 119%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 /* populaires */
 
-.populaires {
-  width: 100%;
-  margin-top: 35px;
-  padding: 10px;
-}
-.col-1 {
-  width: 100%;
-  height: 170px;
-  padding: 10px;
-  padding-bottom: 2px;
-  margin-bottom: 15px;
-}
-.col-1 img {
-  position: absolute;
-  object-fit: cover;
-  width: 150px;
-  height: 150px;
-}
-
-.col-1:hover {
+.card:hover {
   color: #0065fc;
   transform: scale(1, 1.2);
-}
-
-.notesoleil {
-  position: relative;
-  top: 145%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-}
-
-
-
-.noteleau {
-  position: absolute;
-  top: 173%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-}
-
-.notebleublanc {
-  position: absolute;
-  top: 1337px;
-  left: 60%;
-  transform: translate(-50%, -50%);
 }
 
 /* hebergements */
 
-.hebergements {
-  width: 100%;
-  margin-top: 35px;
-  padding: 10px;
-}
-
-.col-2 {
-  width: 100%;
-  height: 270px;
-  margin-bottom: 20px;
-  padding: 5px;
-}
-.col-2:hover {
-  color: #0065fc;
-  transform: scale(1, 1.2);
-}
-
-.col-2 img {
-  height: 150px;
-  width: 100%;
-  object-fit: cover;
-}
-
-.col-2 p {
-  padding-left: 15px;
-}
-
-.notecannebiere {
-  position: absolute;
-  top: 1760px;
-  left: 22%;
-  transform: translate(-50%, -50%);
-}
-
-.noteport {
-  position: absolute;
-  top: 2050px;
-  left: 22%;
-  transform: translate(-50%, -50%);
-}
-
-.notemouettes {
-  position: absolute;
-  top: 2340px;
-  left: 22%;
-  transform: translate(-50%, -50%);
-}
-
-.notemer {
-  position: absolute;
-  top: 2630px;
-  left: 22%;
-  transform: translate(-50%, -50%);
-}
-
-.notepanier {
-  position: absolute;
-  top: 2920px;
-  left: 22%;
-  transform: translate(-50%, -50%);
-}
-
-.noteamina {
-  position: absolute;
-  top: 3211px;
-  left: 22%;
-  transform: translate(-50%, -50%);
-}
-
 /* activités*/
 
 .activites {
-  width: 100%;
   margin-top: 35px;
   padding: 10px;
-}
-
-.col-3 {
-  width: 100%;
-  height: 200px;
-  margin-bottom: 20px;
-}
-.col-3:hover {
-  color: #0065fc;
-  transform: scale(1, 1.2);
-}
-
-.col-3 img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-}
-
-.col-3 h3 {
-  padding: 0px 0px 30px 10px;
 }
 
 /* footer */
