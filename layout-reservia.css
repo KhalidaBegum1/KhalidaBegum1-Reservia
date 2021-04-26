@@ -50,9 +50,41 @@ h2 {
   padding-top: 50px;
 }
 
-/* filtres */
+.information {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-info {
+  border: 2px solid var(--secondary-color);
+  border-radius: 100%;
+  padding: 10px;
+  color: var(--primary-color);
+  margin: 10px;
+}
 
 /* populaires */
+
+.chart {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 100%;
+}
+
+.chart-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.chart-icon {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
 
 .card:hover {
   color: #0065fc;
@@ -129,71 +161,6 @@ h2 {
   }
   .hide {
     display: revert;
-  }
-
-  /* recherche */
-
-  .recherche input {
-    width: 30%;
-    margin: 20px;
-    padding: 17.5px;
-    padding-left: 100px;
-  }
-
-  .fa-map-marker-alt {
-    position: absolute;
-    top: 33.5%;
-    left: 3.5%;
-    transform: translate(-50%, -50%);
-  }
-  .fa-map-marker-alt {
-    padding: 18px 20px;
-    width: 60px;
-    height: 60px;
-  }
-
-  .fa-search {
-    position: absolute;
-    top: 33.5%;
-    left: 422px;
-    transform: translate(-50%, -50%);
-  }
-
-  /* Filtres*/
-
-  .filtres ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .filtres li {
-    padding: 15px 15px 15px 70px;
-  }
-  .fa-money-bill-wave {
-    position: absolute;
-    top: 50.5%;
-    left: 3.9%;
-    transform: translate(-50%, -50%);
-  }
-  .fa-child {
-    position: absolute;
-    top: 50.5%;
-    left: 31.5%;
-    transform: translate(-50%, -50%);
-  }
-
-  .fa-heart {
-    position: absolute;
-    top: 50.5%;
-    left: 56.5%;
-    transform: translate(-50%, -50%);
-  }
-  .fa-dog {
-    position: absolute;
-    top: 50.5%;
-    left: 84%;
-    transform: translate(-50%, -50%);
   }
 
   .fa-info {

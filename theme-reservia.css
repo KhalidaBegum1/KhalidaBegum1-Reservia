@@ -66,13 +66,13 @@ h2 {
   color: #0065fc;
 }
 
-.
+.hidden {
+  text-decoration: none;
+}
 
-
-
-
-
-/* activités*/
+.afficher {
+  text-decoration: none;
+}
 
 /* footer */
 
