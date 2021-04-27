@@ -1,11 +1,6 @@
 /* CSS Layout */
 
-.header {
-  margin: 8px 20px 50px 15px;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-}
+
 h1 {
   margin: 15px;
 }
@@ -13,42 +8,9 @@ h2 {
   margin: 15px;
 }
 
-.nav {
-  margin: 15px;
-}
-.nav a {
-  text-decoration: none;
-}
 
-.nav li {
-  list-style: none;
-}
 
-.hide {
-  display: none;
-}
 
-.hidden {
-  position: absolute;
-  top: 52.7%;
-  left: 90%;
-  transform: translate(-50%, -50%);
-}
-.tete1 {
-  position: absolute;
-  top: 108%;
-  left: 18%;
-  transform: translate(-50%, -50%);
-  padding-top: 50px;
-}
-
-.tete2 {
-  position: absolute;
-  top: 108%;
-  left: 83%;
-  transform: translate(-50%, -50%);
-  padding-top: 50px;
-}
 
 .information {
   display: inline-flex;
@@ -74,16 +36,16 @@ h2 {
   width: 100%;
 }
 
-.chart-text {
+.chart-text h2{
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  text-align:left;
+  
 }
 
-.chart-icon {
+.chart-icon .fa-chart-line {
   display: flex;
   align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: right;
 }
 
 .card:hover {
@@ -103,25 +65,17 @@ h2 {
 /* footer */
 
 .footer {
-  margin-top: 15px;
-  padding-top: 15px;
-  padding-left: 15px;
+  margin: 15px;
+  padding: 15px;
   margin-bottom: 25px;
 }
-.footer p {
-  padding-left: 15px;
-}
+
 
 @media screen and (min-width: 600px) {
 }
 
 @media screen and (min-width: 960px) {
-  .icon {
-    position: absolute;
-    top: 170%;
-    left: 5%;
-    transform: translate(-50%, -50%);
-  }
+ 
   .tete1 {
     position: absolute;
     top: 110%;
@@ -163,18 +117,7 @@ h2 {
     display: revert;
   }
 
-  .fa-info {
-    position: absolute;
-    top: 61%;
-    left: 1%;
-    transform: translate(-50%, -50%);
-  }
-  .fa-chart-line {
-    position: absolute;
-    top: 78%;
-    left: 86%;
-    transform: translate(-50%, -50%);
-  }
+  
 
   /* populaires*/
 
@@ -205,26 +148,13 @@ h2 {
     transform: translate(-50%, -50%);
   }
 
-  .col-2 {
-    width: 290px;
-    height: 200px;
-    margin-top: 50px;
+ .footer{
+   display:flex;
+   flex-direction: row;
+ }
+  .footer p{
+    display:flex;
+    
   }
-
-  .col-2 img {
-    width: 100%;
-  }
-
-  .col-2 p {
-    margin-top: 0px;
-    text-align: justify;
-  }
-
-  .activites {
-    width: 75%;
-    margin-top: 30px;
-  }
-  .col-3 {
-    width: 100%;
-  }
+  
 }
