@@ -58,6 +58,7 @@
 
   .nav-link a {
     border-bottom: none;
+    border-top: 2px solid transparent;
   }
 
   .nav-link a:hover {
