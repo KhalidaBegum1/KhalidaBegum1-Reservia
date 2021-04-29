@@ -1,16 +1,11 @@
 /* CSS Layout */
 
-
 h1 {
   margin: 15px;
 }
 h2 {
   margin: 15px;
 }
-
-
-
-
 
 .information {
   display: inline-flex;
@@ -36,21 +31,15 @@ h2 {
   width: 100%;
 }
 
-.chart-text h2{
+.chart-text h2 {
   display: flex;
-  text-align:left;
-  
+  text-align: left;
 }
 
 .chart-icon .fa-chart-line {
   display: flex;
   align-items: flex-end;
   justify-content: right;
-}
-
-.card:hover {
-  color: #0065fc;
-  transform: scale(1, 1.2);
 }
 
 /* hebergements */
@@ -69,92 +58,35 @@ h2 {
   padding: 15px;
   margin-bottom: 25px;
 }
+.populaires .cards-container,
+.hebergements .cards-container,
+.activites .cards-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-rows: 250px;
+}
 
+.populaire-hebergements-container {
+  display: grid;
+  grid-template-columns: auto;
+}
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 576px) {
+  .hebergements .cards-container {
+    grid-template-columns: repeat(3, 33%);
+  }
+
+  .populaire-hebergements-container {
+    grid-template-columns: 66% 33%;
+  }
+  .hebergements {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+  .populaires {
+    grid-column-start: 2;
+  }
 }
 
 @media screen and (min-width: 960px) {
- 
-  .tete1 {
-    position: absolute;
-    top: 110%;
-    left: 72%;
-    transform: translate(-50%, -50%);
-  }
-
-  .tete2 {
-    position: absolute;
-    top: 110%;
-    left: 85%;
-    transform: translate(-50%, -50%);
-  }
-  .hide {
-    position: absolute;
-    top: 190%;
-    left: 96%;
-    transform: translate(-50%, -50%);
-  }
-
-  .nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-  .nav a {
-    padding-right: 30px;
-    text-decoration: none;
-    color: #0065fc;
-  }
-  .nav li {
-    list-style: none;
-  }
-  .hidden {
-    color: #0065fc;
-    display: none;
-  }
-  .hide {
-    display: revert;
-  }
-
-  
-
-  /* populaires*/
-
-  .populaires {
-    width: 27%;
-    float: right;
-  }
-
-  /* hebergements*/
-
-  .hebergements {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 70%;
-
-    margin-left: 15px;
-  }
-  .hebergements a {
-    margin-top: 70px;
-    margin-right: 520px;
-  }
-  .carteH {
-    padding: 15px;
-    position: absolute;
-    top: 72%;
-    left: 13%;
-    transform: translate(-50%, -50%);
-  }
-
- .footer{
-   display:flex;
-   flex-direction: row;
- }
-  .footer p{
-    display:flex;
-    
-  }
-  
 }
