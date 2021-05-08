@@ -27,6 +27,7 @@
   display: flex;
   flex: 1;
   justify-content: center;
+  font-weight: bold;
   text-decoration: none;
   border-bottom: 2px solid gray;
   padding: 15px 0;
@@ -41,6 +42,11 @@
 
 .nav-subscription-link {
   display: none;
+}
+.subscription-link {
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 @media screen and (min-width: 576px) {
@@ -59,6 +65,33 @@
   .nav-link a {
     border-bottom: none;
     border-top: 2px solid transparent;
+  }
+
+  .nav-link a:hover {
+    border-top: 2px solid var(--primary-color);
+  }
+  .nav-link {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .nav-subscription-link {
+    display: flex;
+  }
+  .subscription-link {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-link a {
+    border-bottom: none;
+    border-top: 2px solid transparent;
+    padding: 30px;
   }
 
   .nav-link a:hover {

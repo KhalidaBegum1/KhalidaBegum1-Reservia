@@ -2,6 +2,7 @@
 html {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0px;
@@ -87,5 +88,14 @@ h2 {
 @media screen and (min-width: 960px) {
   .hebergements {
     background-color: #f2f2f2;
+    border-radius: 25px;
+  }
+
+  .populaires {
+    border-radius: 25px;
+  }
+
+  main {
+    margin: 30px;
   }
 }

@@ -1,5 +1,11 @@
 /* search.css */
 
+.recherche h2 {
+  padding: 15px 15px 15px 0px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 .search {
   display: flex;
   height: 60px;
@@ -40,13 +46,29 @@
 }
 
 @media screen and (min-width: 576px) {
-  .search{
-    width:500px;
-    padding-left:10px;
+  .search {
+    width: 500px;
+    padding-left: 10px;
   }
   .search-text {
     display: inline;
-    
+  }
+
+  .search-icon {
+    display: none;
+  }
+  .search button {
+    border-radius: 0px 15px 15px 0px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .search {
+    width: 500px;
+    padding-left: 10px;
+  }
+  .search-text {
+    display: inline;
   }
 
   .search-icon {
