@@ -71,7 +71,7 @@
     border-top: 2px solid var(--primary-color);
   }
   .nav-link {
-    width: 150px;
+    width: 100px;
   }
 }
 
@@ -91,11 +91,12 @@
   .nav-link a {
     border-bottom: none;
     border-top: 2px solid transparent;
-    padding: 30px;
+    padding: 60px;
   }
 
   .nav-link a:hover {
     border-top: 2px solid var(--primary-color);
+    width: 170px;
   }
   .nav-link {
     width: 150px;
