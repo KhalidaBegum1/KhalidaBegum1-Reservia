@@ -10,9 +10,13 @@
 
 .filter:hover {
   transform: scale(1.1);
+  transition: transform ease-in-out 0.5s;
+  border-color: #deebff;
 }
 .filter-icon:hover {
-  color: #fff;
+  color: aqua;
+  transform: scale(1.1);
+  transition: transform ease-in-out 0.5s;
 }
 .filtres {
   padding: 15px;
