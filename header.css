@@ -65,6 +65,8 @@
   .nav-link a {
     border-bottom: none;
     border-top: 2px solid transparent;
+    height:100px;
+    align-items: center;
   }
 
   .nav-link a:hover {
@@ -91,7 +93,8 @@
   .nav-link a {
     border-bottom: none;
     border-top: 2px solid transparent;
-    padding: 60px;
+    height:100px;
+    align-items: center;
   }
 
   .nav-link a:hover {
