@@ -19,10 +19,6 @@ h2 {
   font-weight: bold;
   margin: 30px 15px 15px 30px;
 }
-header,
-main {
-  margin: 0 30px;
-}
 
 * {
   box-sizing: border-box;
@@ -34,6 +30,7 @@ main {
   color: #000000;
   padding: 10px;
   font-weight: bold;
+  font-size: 18px;
 }
 
 .nav a {
@@ -91,6 +88,10 @@ main {
 }
 
 @media screen and (min-width: 576px) {
+  header,
+  main {
+    margin: 0 10px;
+  }
 }
 
 @media screen and (min-width: 960px) {
