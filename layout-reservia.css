@@ -112,7 +112,6 @@ h2 {
   }
   .hebergements .cards-container {
     grid-template-columns: repeat(6, 50%);
-    background-color: var(--primary-color);
     overflow-x: auto;
   }
 
@@ -124,8 +123,14 @@ h2 {
 
   .populaires .cards-container {
     grid-template-columns: repeat(3, 50%);
-    background-color: var(--primary-color);
     overflow-x: auto;
+  }
+  .populaires .card-text {
+    font-size: 14px;
+  }
+
+  .hebergements .card-text {
+    font-size: 14px;
   }
 
   .activites .cards-container {
@@ -170,9 +175,18 @@ h2 {
     overflow-x: unset;
   }
 
+  .populaires .card-text {
+    font-size: 13px;
+  }
+
+  .hebergements .card-text {
+    font-size: 13px;
+  }
+
   .activites .cards-container {
     display: grid;
     grid-template-columns: repeat(4, 2fr);
+    height: 500px;
     grid-template-rows: 50% 50%;
   }
   .activites .cards-container .row {
